@@ -40,4 +40,11 @@ console.log(typeof b)
 let c = true
 console.log(typeof c)
 
-prompt(firstName + middleName +lastName + age)
+let firstname = prompt("Ваше імя'я")
+console.log(firstName)
+
+let middlename = prompt("По батькові")
+console.log(middlename)
+let age= prompt("Ваш вік")
+console.log(age)
+
