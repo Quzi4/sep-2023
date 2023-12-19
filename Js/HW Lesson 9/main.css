@@ -1,0 +1,111 @@
+.wrap{
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: darkorange;
+    color: white;
+    font-size: 25px;
+}
+.collapse{
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: green;
+    color: yellow;
+    font-size: 35px;
+}
+.alpha{
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: pink;
+    color: green;
+    font-size:55px;
+}
+.beta{
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: red;
+    font-size: 15px;
+}
+
+.simpsonsFamily{
+    display: flex;
+    width: 100vw;
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*.title{*/
+/*    display: flex;*/
+/*    width: ;*/
+/*}*/
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Стили для отдельного курса */
+.course {
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+
+.title {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 5vh;
+}
+.duration-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #76b6ff;
+
+}
+
+.month-text {
+    width: 30vw;
+    color: blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.hour-text {
+    color: green;
+    text-align: center;
+    justify-content: center;
+    width: 70vw;
+    border: 1px solid black;
+
+}
+.module-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+.module-container {
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.module-item {
+    list-style-type: square;
+    margin-left: 20px;
+}
