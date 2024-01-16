@@ -41,7 +41,7 @@ function renderUserPosts(posts) {
         const postTitle = document.createElement('p')
         postTitle.innerHTML = `<b>Info about post:</b> ${post.title}`
         const postDetailsButton = createButton('Detailed information about post', () => {
-            location.href = `./index3.html?post=${post.id}`
+            location.href = `index3.html`
         });
 
         postDiv.append(postTitle, postDetailsButton)

@@ -12,7 +12,7 @@ fetch('http://jsonplaceholder.typicode.com/users')
             p.innerHTML = `<b>ID:</b> ${user.id} <br> <b>Name:</b> ${user.name}`
             btn.innerText = 'SHOW';
             btn.addEventListener('click', function() {
-                window.location.href = `./index2.html?id=${user.id}`;
+                window.location.href = `index2.html`;
             });
 
             li.appendChild(p);
