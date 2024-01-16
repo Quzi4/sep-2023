@@ -1,0 +1,37 @@
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#post-info {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#post-details-info, #comments-container {
+    margin-top: 20px;
+}
+
+b {
+    color: blue;
+}
+
+p b {
+    margin-right: 5px;
+}
+
+p b {
+    font-weight: bold;
+}
